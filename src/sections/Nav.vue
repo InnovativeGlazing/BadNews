@@ -13,7 +13,6 @@
 </template>
 
 <script setup lang="ts">
-import LogoWithText from "../components/common/LogoWithText.vue";
 import XLogo from "../components/common/XLogo.vue";
 import GitBookLogo from "../components/common/GitBookLogo.vue";
 import DexScreenerLogo from "../components/common/DexScreenerLogo.vue";
