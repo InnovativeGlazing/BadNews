@@ -4,10 +4,10 @@
     <Logo class="h-8 w-fit" />
 
     <div class="flex items-center gap-6">
-      <a href="#"><GitBookLogo class="h-6 fill-white hover:fill-bear-blue duration-300" /> </a>
-      <a href="#" class="hover:text-bear-blue duration-300"><XLogo class="h-4 fill-white hover:fill-bear-blue duration-300"  /></a>
-      <a href="#" class="hover:text-bear-blue duration-300"><TelegramLogo class="h-5 fill-white hover:fill-bear-blue duration-300"  /> </a>
-      <a href="#" class="hover:text-bear-blue duration-300"><DexScreenerLogo class="h-5 fill-white hover:fill-bear-blue duration-300"  /></a>
+      <a href="https://gitbook.badnewsbears.ai" target="_blank"><GitBookLogo class="h-6 fill-white hover:fill-bear-blue duration-300" /> </a>
+      <a href="https://x.com/badnewsbearsai" target="_blank" class="hover:text-bear-blue duration-300"><XLogo class="h-4 fill-white hover:fill-bear-blue duration-300"  /></a>
+      <a href="https://t.me/badnewsbearsAI" class="hover:text-bear-blue duration-300" target="_blank"><TelegramLogo class="h-5 fill-white hover:fill-bear-blue duration-300"  /> </a>
+      <a href="#" class="hover:text-bear-blue duration-300" target="_blank"><DexScreenerLogo class="h-5 fill-white hover:fill-bear-blue duration-300"  /></a>
     </div>
   </div>
 </template>

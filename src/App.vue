@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-20 relative w-5/6 mx-auto py-12">
+  <div class="flex flex-col gap-36 relative w-5/6 mx-auto py-12">
     <Nav class="absolute top-0 left-0 right-0" />
     <Hero />
     <Tokenomics />

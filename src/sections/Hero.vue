@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen flex flex-col items-center justify-center gap-12 relative">
+  <div class="h-screen flex flex-col items-center justify-center gap-12 relative" id="hero">
     <div ref="title" class="h-16 md:h-36 relative">
       <div ref="slogan" class="h-20 absolute  -top-28 -left-20 md:-left-28"><Slogan /></div>
 
@@ -7,10 +7,10 @@
     </div>
 
     <div ref="cta" class="flex gap-4">
-      <div><div class="px-2.5 py-2 border rounded-md cursor-pointer hover:bg-bear-blue duration-300">Get Started</div></div>
-      <div><div class="px-2.5 py-2 border rounded-md cursor-pointer hover:bg-bear-blue duration-300">Tokenomics</div></div>
+      <a href="#hero"><div class="px-2.5 py-2 border rounded-md cursor-pointer hover:bg-bear-blue duration-300">Get Started</div></a>
+      <a href="#tokenomics"><div class="px-2.5 py-2 border rounded-md cursor-pointer hover:bg-bear-blue duration-300">Tokenomics</div></a>
     </div>
-    <img ref="bearImage" alt="Bad News Bears" src="/assets/bear.png" class="absolute -bottom-12 md:bottom-16 h-68 md:h-80" />
+    <img ref="bearImage" alt="Bad News Bears" src="/assets/welcome.gif" class="absolute -bottom-12 md:bottom-16 h-68 md:h-80" />
   </div>
 </template>
 
