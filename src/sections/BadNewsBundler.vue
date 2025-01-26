@@ -1,5 +1,6 @@
 <template>
-  <div class="flex flex-col items-center gap-10" id="tokenomics">
+  <div class="flex flex-col items-center gap-10" id="bnb">
+    <div class="text-3xl font-bold">BadNewsBundler</div>
     <div class="md:w-3/4 border rounded-lg px-8 py-4">
       <video
           src="/assets/launch.mp4"

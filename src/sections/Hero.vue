@@ -7,7 +7,7 @@
     </div>
 
     <div ref="cta" class="flex gap-4">
-      <a href="#tokenomics"><div class="px-2.5 py-2 border rounded-md cursor-pointer hover:bg-bear-blue duration-300">Tokenomics</div></a>
+      <a href="#bnb"><div class="px-2.5 py-2 border rounded-md cursor-pointer hover:bg-bear-blue duration-300">BadNewsBundler</div></a>
     </div>
   </div>
 </template>
