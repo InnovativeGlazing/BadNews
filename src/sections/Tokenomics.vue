@@ -4,8 +4,8 @@
     <div class="md:w-3/4 border rounded-lg px-8 py-4">
       <video
           src="/assets/launch.mp4"
-          :width="width"
-          :height="height"
+          width="100%"
+          height="100%"
           controls
       ></video>
     </div>
