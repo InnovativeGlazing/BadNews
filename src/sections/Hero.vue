@@ -7,10 +7,8 @@
     </div>
 
     <div ref="cta" class="flex gap-4">
-      <a href="#hero"><div class="px-2.5 py-2 border rounded-md cursor-pointer hover:bg-bear-blue duration-300">Get Started</div></a>
       <a href="#tokenomics"><div class="px-2.5 py-2 border rounded-md cursor-pointer hover:bg-bear-blue duration-300">Tokenomics</div></a>
     </div>
-    <img ref="bearImage" alt="Bad News Bears" src="/assets/welcome.gif" class="absolute -bottom-12 md:bottom-16 h-68 md:h-76" />
   </div>
 </template>
 
