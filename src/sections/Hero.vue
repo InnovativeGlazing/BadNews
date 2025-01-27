@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen flex flex-col items-center justify-center gap-12 relative" id="hero">
+  <div class="h-[85vh] flex flex-col items-center justify-center gap-12 relative" id="hero">
     <div ref="title" class="h-16 md:h-36 relative">
       <div ref="slogan" class="h-20 absolute  -top-28 -left-20 md:-left-28"><Slogan /></div>
 
@@ -7,7 +7,7 @@
     </div>
 
     <div ref="cta" class="flex gap-4">
-      <a href="#bnb"><div class="px-2.5 py-2 border rounded-md cursor-pointer hover:bg-bear-blue duration-300">BadNewsBundler</div></a>
+      <a href="https://t.me/BadNewsBundlerBot" class="px-2.5 py-2 border rounded-md cursor-pointer hover:bg-bear-blue duration-300">BadNewsBundler</a>
     </div>
   </div>
 </template>
