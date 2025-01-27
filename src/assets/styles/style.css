@@ -9,7 +9,7 @@ html {
 @layer base {
     @font-face {
         font-family: 'Scoville';
-        src: url('/fonts/scoville.otf') format('opentype');
+        src: url('@/assets/fonts/scoville.otf') format('opentype');
         font-weight: normal;
         font-style: normal;
         font-display: swap;
@@ -17,13 +17,13 @@ html {
 
     @font-face {
         font-family: 'Alinsa';
-        src: url('/fonts/alinsa.otf') format('opentype');
+        src: url('@/assets/fonts/alinsa.otf') format('opentype');
         font-weight: normal;
         font-style: normal;
         font-display: swap;
     }
-
 }
+
 
 :root{
     @apply bg-bad-red text-white font-scoville text-xl;

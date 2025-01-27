@@ -13,8 +13,6 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
 import videoSrc from '/src/assets/videos/launch.mp4';
 
-const videoSource = ref(videoSrc);
 </script>
