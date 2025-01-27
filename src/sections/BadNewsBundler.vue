@@ -3,7 +3,7 @@
     <div class="text-3xl font-bold">BadNewsBundler</div>
     <div class="md:w-3/4 border rounded-lg px-8 py-4">
       <video
-          src="/assets/launch.mp4"
+          :src="videoSrc"
           width="100%"
           height="100%"
           controls
@@ -13,5 +13,8 @@
 </template>
 
 <script setup lang="ts">
+import { ref } from 'vue';
+import videoSrc from '/src/assets/videos/launch.mp4';
 
+const videoSource = ref(videoSrc);
 </script>

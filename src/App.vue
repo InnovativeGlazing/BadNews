@@ -4,7 +4,7 @@
     <Hero />
     <BadNewsBundler />
     <a href="https://pump.fun" target="_blank" rel="noopener noreferrer">
-    <img src="/assets/pump.gif" alt="pump fun" />
+      <img :src="pumpGif" alt="pump fun" />
     </a>
   </div>
 </template>
@@ -13,4 +13,5 @@
 import Nav from './sections/Nav.vue'
 import Hero from './sections/Hero.vue'
 import BadNewsBundler from "./sections/BadNewsBundler.vue";
+import pumpGif from './assets/pump.gif'
 </script>
